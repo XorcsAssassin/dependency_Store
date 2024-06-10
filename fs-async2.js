@@ -46,3 +46,6 @@ When the remaining code(syntax/task) inside and outside the async function is do
 then and then only the callback functions are executed in FIFO fashion since they are stored in a queue ds.
 This is essential in today's world as it helps overcoming the disadvantage of time-consuming sync functions which is the main characteristic of single-threaded JS.
 It does so by allowing server to accept info/data from other users even when the engine has not completed the previous task.*/
+
+/*Disadvantage-
+Code gets messy and nested for complex logic*/
